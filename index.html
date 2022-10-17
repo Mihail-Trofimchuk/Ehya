@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Ehya - Агенство цифровых проектов</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <!-- <link rel="stylesheet" href="css/aos.css" />-->
+    <!-- <link rel="stylesheet" href="css/swiper.css" /> -->
+  </head>
+  <body class="modal-close">
+    <header class="header-mobile">
+      <div class="container">
+        <div class="header">
+          <nav class="header-logo">
+            <a href="index.html">
+              <img
+                src="img/Logo.svg"
+                alt="Logo: Ehya"
+                class="header-logo__image"
+            /></a>
+          </nav>
+          <div class="header-menu">
+            <ul class="header-menu-list">
+              <li class="header-menu__item">
+                <a href="#" class="header-menu__link">Домой</a>
+              </li>
+              <li class="header-menu__item">
+                <button
+                  type="button"
+                  onclick="myFunction()"
+                  class="header-menu__link dropbtn"
+                >
+                  Лэндинги
+                  <img
+                    class="arrow-down-1 dropbtn"
+                    src="img/angle-down.svg"
+                    alt="Icon: Angle-Down"
+                  />
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Shortlist</a>
+                  <a href="#">Longread</a>
+                  <a href="#">Мультилендинг</a>
+                  <a href="#">Квиз</a>
+                </div>
+              </li>
+              <li class="header-menu__item">
+                <button
+                  type="button"
+                  onclick="myFunc()"
+                  class="header-menu__link drop"
+                >
+                  Страницы
+                  <img
+                    class="arrow-down-2 drop"
+                    src="img/angle-down.svg"
+                    alt="Icon: Angle-Down"
+                  />
+                </button>
+                <div id="Drop" class="content">
+                  <a href="#employment">Что мы делаем?</a>
+                  <a href="#projects">Проекты</a>
+                  <a href="#reviews">Отзывы</a>
+                </div>
+              </li>
+              <li class="header-menu__item">
+                <a href="#" class="header-menu__link">Помощь</a>
+              </li>
+            </ul>
+            <button type="button" data-toggle="modal" class="header__button">
+              Получить
+            </button>
+          </div>
+          <button data-toggle="mobile" type="button" class="header-menu-button">
+            <span class="header-menu-button__line"></span>
+            <span class="header-menu-button__line"></span>
+            <span class="header-menu-button__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section class="introduction">
+      <div class="container">
+        <div class="introduction-box">
+          <div class="introduction-box-left">
+            <h1 class="introduction-box__title">Номер #1,</h1>
+            <span class="introduction-box__text-middle">Южная Азия</span>
+            <span class="introduction-box__text-large"
+              >Агенство цифровых <br />
+              продуктов</span
+            >
+            <p class="introduction-box__text-little">
+              Мы даем результаты, помогающие Вам добиться экономии средств и
+              времени без риска или <br />
+              накладных расходов на управление
+            </p>
+
+            <a href="#projects" class="introduction-box__button">
+              Наше портфолио
+            </a>
+
+            <a href="#partners" class="introduction-box__link-left"
+              ><img
+                class="introduction-box__image"
+                src="img/Button.svg"
+                alt="Icon: scrole"
+            /></a>
+          </div>
+          <div class="introduction-box-right">
+            <img
+              class="introduction-box-right__iphone"
+              src="img/iphone.png"
+              alt="Photo: iphone"
+            />
+            <img
+              class="introduction-box-right__macbook"
+              src="img/Macbook.png"
+              alt="Photo: macbook"
+            />
+            <img
+              class="introduction-box-right__oval"
+              src="img/Oval-2.png"
+              alt="Photo: oval"
+            />
+            <img
+              class="introduction-box-right__pattern"
+              src="img/Pattern.svg"
+              alt="Photo: pattern"
+            />
+            <a href="#partners" class="introduction-box__link-right"
+              ><img src="img/Button.svg" alt="Icon: scrole"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partners" id="partners">
+      <div class="container">
+        <div class="partners-container">
+          <div class="partners-container-top">
+            <div class="partners-container-top__left">
+              <span class="partners-container__text-small">Наши партнеры</span>
+              <h2 class="partners-container__title">
+                Мы работали с ними,<br />
+                Мы доверяем друг другу
+              </h2>
+            </div>
+            <div class="partners-container-top__right">
+              <p class="partners-container__text">
+                Наша команда предоставляет творческое образование высокого
+                уровня для глобальной аудитории студентов, преподавателей и
+                предпринимателей со всего мира
+              </p>
+            </div>
+          </div>
+          <div class="partners-container-buttom">
+            <img
+              src="img/slack.svg"
+              alt="Icon: Slack"
+              class="partners-container-buttom__image-first"
+            />
+            <img
+              src="img/netflix.svg"
+              alt="Icon: Netflix"
+              class="partners-container-buttom__image-second"
+            />
+            <img
+              src="img/fitbit.svg"
+              alt="Icon: Fitbit"
+              class="partners-container-buttom__image-third"
+            />
+            <img
+              src="img/google.svg"
+              alt="Icon: Google"
+              class="partners-container-buttom__image partners-container-buttom__image-mod"
+            />
+            <img
+              src="img/airbnb.svg"
+              alt="Icon: Airbnb"
+              class="partners-container-buttom__image partners-container-buttom__image-last"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="employment" id="employment">
+      <div class="container">
+        <div class="employment-container">
+          <div class="employment-top">
+            <h2 class="employment__title">Что мы делаем</h2>
+            <span class="employment__text"
+              >Мы работаем вместе с нашим клиентом, чтобы создать эффективный
+              продукт.</span
+            >
+          </div>
+          <div class="employment-buttom">
+            <div class="employment-block">
+              <img
+                class="employment__image"
+                src="img/Oval.svg"
+                alt="Icon: Oval"
+              />
+              <div class="employment-block-info">
+                <h3 class="employment-block__title">Брендинг</h3>
+                <span class="employment-block__text"
+                  >Создаем логотип и концепцию под нужды вашего бренда.</span
+                >
+              </div>
+            </div>
+            <div class="employment-block">
+              <img
+                class="employment__image"
+                src="img/Polygon.svg"
+                alt="Icon: Poligon"
+              />
+              <div class="employment-block-info">
+                <h3 class="employment-block__title">Разработка</h3>
+                <span class="employment-block__text"
+                  >Мы разрабатываем ваши приложения, веб-сайт и панель
+                  управления для вас.</span
+                >
+              </div>
+            </div>
+            <div class="employment-block">
+              <img
+                class="employment__image"
+                src="img/Polygon-1.svg"
+                alt="Icon: Poligon"
+              />
+              <div class="employment-block-info">
+                <h3 class="employment-block__title">UI/UX Дизайн</h3>
+                <span class="employment-block__text"
+                  >Создание цифрового продукта с красивым и интуитивно понятным
+                  дизайном.</span
+                >
+              </div>
+            </div>
+            <div class="employment-block">
+              <img
+                class="employment__image"
+                src="img/Rectangle.svg"
+                alt="Icon: Rectangle"
+              />
+              <div class="employment-block-info">
+                <h3 class="employment-block__title">Microstock</h3>
+                <span class="employment-block__text"
+                  >Мы производим миллион активов для нужд вашего бизнеса.</span
+                >
+              </div>
+            </div>
+            <div class="employment-block">
+              <img
+                class="employment__image"
+                src="img/Triangle.svg"
+                alt="Icon: Triangle"
+              />
+              <div class="employment-block-info">
+                <h3 class="employment-block__title">Соцсети</h3>
+                <span class="employment-block__text"
+                  >Планирование и поддержка социальных сетей для широкой
+                  аудитории.</span
+                >
+              </div>
+            </div>
+            <div class="employment-block">
+              <img
+                class="employment__image"
+                src="img/Polygon-2.svg"
+                alt="Icon: Poligon"
+              />
+              <div class="employment-block-info">
+                <h3 class="employment-block__title">Исследование</h3>
+                <span class="employment-block__text"
+                  >Помощь исследовательскому стартапу или бренду в
+                  удовлетворении потребностей бизнеса.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="container projects-container">
+        <div class="projects-wrapper">
+          <div class="projects-text">
+            <span class="projects__text">портфолио</span>
+            <h2 class="projects__title">Наши проекты</h2>
+          </div>
+          <button type="button" class="projects__button projects__button-prev">
+            <svg
+              width="15"
+              height="14"
+              viewBox="0 0 15 14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.03125 12.9375C9.34375 12.625 9.3125 12.1562 9.03125 11.8438L5.25 8.25H14.25C14.6562 8.25 15 7.9375 15 7.5V6.5C15 6.09375 14.6562 5.75 14.25 5.75H5.25L9.03125 2.1875C9.3125 1.875 9.34375 1.40625 9.03125 1.09375L8.34375 0.40625C8.0625 0.125 7.5625 0.125 7.28125 0.40625L1.21875 6.5C0.90625 6.78125 0.90625 7.25 1.21875 7.53125L7.28125 13.625C7.5625 13.9062 8.03125 13.9062 8.34375 13.625L9.03125 12.9375Z"
+              />
+            </svg>
+          </button>
+          <button type="button" class="projects__button projects__button-next">
+            <svg
+              width="15"
+              height="14"
+              viewBox="0 0 15 14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.03125 12.9375C9.34375 12.625 9.3125 12.1562 9.03125 11.8438L5.25 8.25H14.25C14.6562 8.25 15 7.9375 15 7.5V6.5C15 6.09375 14.6562 5.75 14.25 5.75H5.25L9.03125 2.1875C9.3125 1.875 9.34375 1.40625 9.03125 1.09375L8.34375 0.40625C8.0625 0.125 7.5625 0.125 7.28125 0.40625L1.21875 6.5C0.90625 6.78125 0.90625 7.25 1.21875 7.53125L7.28125 13.625C7.5625 13.9062 8.03125 13.9062 8.34375 13.625L9.03125 12.9375Z"
+              />
+            </svg>
+          </button>
+          <div class="projects-slider">
+            <div class="swiper-container projects-swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper responsive">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="img/project-1.jpg" alt="Photo: Project" />
+                  <div class="swiper-slide__text">
+                    <span class="swiper-slide__text-small"
+                      >Вебсайт, Лендинг</span
+                    >
+                    <h2 class="swiper-slide__title">Проект Вебсайта</h2>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/project-2.jpg" alt="Photo: Project" />
+                  <div class="swiper-slide__text">
+                    <span class="swiper-slide__text-small"
+                      >Паенль навигации, UI/UX Дизайн</span
+                    >
+                    <h2 class="swiper-slide__title">Проект Дизайна</h2>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/project-3.jpg" alt="Photo: Project" />
+                  <div class="swiper-slide__text">
+                    <span class="swiper-slide__text-small"
+                      >Приложения, Мобильные, iOS</span
+                    >
+                    <h2 class="swiper-slide__title">Проекты приложений</h2>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/project-4.jpg" alt="Photo: Project" />
+                  <div class="swiper-slide__text">
+                    <span class="swiper-slide__text-small">Instagram</span>
+                    <h2 class="swiper-slide__title">Проект Иллюстраций</h2>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/project-2.jpg" alt="Photo: Project" />
+                  <div class="swiper-slide__text">
+                    <span class="swiper-slide__text-small"
+                      >Паенль навигации, UI/UX Дизайн</span
+                    >
+                    <h2 class="swiper-slide__title">Проект Дизайна</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-wrapper-mobile">
+          <div class="projects-text projects-text-mobile">
+            <span class="projects__text">портфолио</span>
+            <h2 class="projects__title">Наши проекты</h2>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/project-1.jpg" alt="Photo: Project" />
+            <div class="swiper-slide__text">
+              <span class="swiper-slide__text-small">Вебсайт, Лендинг</span>
+              <h2 class="swiper-slide__title">Проект Вебсайта</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/project-2.jpg" alt="Photo: Project" />
+            <div class="swiper-slide__text">
+              <span class="swiper-slide__text-small"
+                >Паенль навигации, UI/UX Дизайн</span
+              >
+              <h2 class="swiper-slide__title">Проект Дизайна</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/project-3.jpg" alt="Photo: Project" />
+            <div class="swiper-slide__text">
+              <span class="swiper-slide__text-small"
+                >Приложения, Мобильные, iOS</span
+              >
+              <h2 class="swiper-slide__title">Проекты приложений</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/project-4.jpg" alt="Photo: Project" />
+            <div class="swiper-slide__text">
+              <span class="swiper-slide__text-small">Instagram</span>
+              <h2 class="swiper-slide__title">Проект Иллюстраций</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <div class="reviews-text">
+          <span class="reviews__text"> Отзывы </span>
+          <h2 class="reviews__title">Что говорят о нас</h2>
+        </div>
+        <div class="reviews-slider">
+          <!-- Slider main container -->
+          <div class="review-swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-block swiper-slide">
+                <div class="swiper-author-top">
+                  <img
+                    class="swiper-author-image"
+                    src="img/author-1.png"
+                    alt="Photo: Author"
+                  />
+                  <div class="swiper-author">
+                    <h4 class="swiper-author__name">Jaquon Hart</h4>
+                    <span class="swiper-author__title"
+                      >Вице-президент - компания Lizlle</span
+                    >
+                  </div>
+                </div>
+                <p class="swiper-author-text">
+                  «Их навыки и опыт в области пользовательского интерфейса /
+                  пользовательского интерфейса были ключевыми для выявления
+                  потенциальных проблемных моментов в наших бизнес-процессах,
+                  которые они прекрасно исправили или оптимизировали».
+                </p>
+              </div>
+              <div class="swiper-block swiper-slide">
+                <div class="swiper-author-top">
+                  <img
+                    class="swiper-author-image"
+                    src="img/author-2.png"
+                    alt="Photo: Author"
+                  />
+                  <div class="swiper-author">
+                    <h4 class="swiper-author__name">Valdemar Forsberg</h4>
+                    <span class="swiper-author__title"
+                      >Основатель Digitac Finance</span
+                    >
+                  </div>
+                </div>
+                <p class="swiper-author-text">
+                  Ehya подтолкнул нас к мысли, выходящей за рамки наших
+                  первоначальных возможностей и воображения, при этом
+                  гарантируя, что дизайн и форма платформы постоянно
+                  корректируются на основе данных.
+                </p>
+              </div>
+              <div class="swiper-block swiper-slide">
+                <div class="swiper-author-top">
+                  <img
+                    class="swiper-author-image"
+                    src="img/author-6.jpg"
+                    alt="Photo: Author"
+                  />
+                  <div class="swiper-author">
+                    <h4 class="swiper-author__name">Jonse Macklayn</h4>
+                    <span class="swiper-author__title"
+                      >Основатель ArtisMedia</span
+                    >
+                  </div>
+                </div>
+                <p class="swiper-author-text">
+                  Хочу еще раз поблагодарить команду Ehya которая сотрудничает с
+                  нами уже не первый год. За это время мы полностью убедились в
+                  качестве работы и готовы продолжать сотрудничать.Надеемся что
+                  возможности Ehya, будут только увеличиваться.
+                </p>
+              </div>
+              <div class="swiper-block swiper-slide">
+                <div class="swiper-author-top">
+                  <img
+                    class="swiper-author-image"
+                    src="img/author-5.jpg"
+                    alt="Photo: Author"
+                  />
+                  <div class="swiper-author">
+                    <h4 class="swiper-author__name">Leonel`i Mesi</h4>
+                    <span class="swiper-author__title"
+                      >Главный разработчик Digitac Finance</span
+                    >
+                  </div>
+                </div>
+                <p class="swiper-author-text">
+                  Если хочете быстро устранить свою проблему обращайтесь в
+                  Ehya.Ehya уже не раз помогала в любом проекте.Именно с такими
+                  агенствами хочется работать т доверять свое времяю.Желаю не
+                  збавлять темпы и оставаться в лидирующей позиции.
+                </p>
+              </div>
+            </div>
+            <button type="button" class="reviews-button-next">
+              <img
+                class="reviews-button-image"
+                src="img/rev-arrov.svg"
+                alt="Arrow"
+              />
+            </button>
+          </div>
+        </div>
+        <button type="button" class="reviews-button-next-mobile">
+          <img
+            class="reviews-button-image"
+            src="img/rev-arrov.svg"
+            alt="Arrow"
+          />
+        </button>
+      </div>
+    </section>
+    <section class="network">
+      <div class="container">
+        <span class="network__text"> Наши соцсети </span>
+        <h2 class="network__title">Будем друзьями</h2>
+        <div class="network-wrapper">
+          <div class="network-wrapper-block">
+            <img
+              src="img/inst.svg"
+              alt="Icon: Instagram"
+              class="network-wrapper-block__image"
+            />
+            <h5 class="network-wrapper-block__title">Instagram</h5>
+            <span class="network-wrapper-block__text"
+              >Для нашего портфолио и повседневных дел в офисе</span
+            >
+            <a
+              target="_blank"
+              class="network-wrapper-block__href"
+              href="https://www.instagram.com/"
+              >Подписаться
+              <img
+                class="network-wrapper-block__href-arrow"
+                src="img/net-arrow.svg"
+                alt="Icon: Arrow"
+            /></a>
+          </div>
+          <div class="network-wrapper-block">
+            <img
+              src="img/twitter.svg"
+              alt="Icon: Instagram"
+              class="network-wrapper-block__image"
+            />
+            <h5 class="network-wrapper-block__title">Twitter</h5>
+            <span class="network-wrapper-block__text"
+              >Для случайных мыслей и интересных вещей</span
+            >
+            <a
+              target="_blank"
+              class="network-wrapper-block__href"
+              href="https://twitter.com/twitter"
+              >Подписаться
+              <img
+                class="network-wrapper-block__href-arrow"
+                src="img/net-arrow.svg"
+                alt="Icon: Arrow"
+            /></a>
+          </div>
+          <div class="network-wrapper-block">
+            <img
+              src="img/Dribbble.svg"
+              alt="Icon: Instagram"
+              class="network-wrapper-block__image"
+            />
+            <h5 class="network-wrapper-block__title">Dribbble</h5>
+            <span class="network-wrapper-block__text"
+              >Для обновленных и подробных всех нашего портфолио</span
+            >
+            <a
+              target="_blank"
+              class="network-wrapper-block__href"
+              href="https://dribbble.com/"
+              >Подписаться
+              <img
+                class="network-wrapper-block__href-arrow"
+                src="img/net-arrow.svg"
+                alt="Icon: Arrow"
+            /></a>
+          </div>
+          <div class="network-wrapper-block">
+            <img
+              src="img/Youtube.svg"
+              alt="Icon: Instagram"
+              class="network-wrapper-block__image"
+            />
+            <h5 class="network-wrapper-block__title">Youtube</h5>
+            <span class="network-wrapper-block__text"
+              >Для нашего видео руководства и советах по индустрии дизайна</span
+            >
+            <a
+              target="_blank"
+              class="network-wrapper-block__href"
+              href="https://www.youtube.com/"
+              >Подписаться
+              <img
+                class="network-wrapper-block__href-arrow"
+                src="img/net-arrow.svg"
+                alt="Icon: Arrow"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feedback">
+      <div class="container">
+        <div class="feedback-block">
+          <h1 class="feedback__title">Мы готовы к сложным проектам</h1>
+          <span class="feedback__text"
+            >Отправьте нам свой бриф и расскажите о своем проекте. Мы готовы
+            помочь всем, что вам нужно</span
+          >
+
+          <button data-toggle="modal" class="feedback__button" type="button">
+            Пообщаемся?
+          </button>
+          <img class="feedback__image" src="img/Oval.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top__main">
+            <a href="#">
+              <img
+                src="img/footer-logo.svg"
+                alt="Logo"
+                class="footer-top__main__logo"
+              />
+            </a>
+            <span class="footer-top__main__text"
+              >Создайте современный и креативный веб-сайт с crealand</span
+            >
+            <div class="footer-top__main-block">
+              <a href="https://www.google.com/" target="_blank"
+                ><img
+                  src="img/footer-google.svg"
+                  alt="Google"
+                  class="footer-top__main-block__image"
+              /></a>
+              <a href="https://twitter.com/twitter" target="_blank"
+                ><img
+                  src="img/footer-twitter.svg"
+                  alt="Twitter"
+                  class="footer-top__main-block__image"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img
+                  src="img/footer-instagram.svg"
+                  alt="Instagram"
+                  class="footer-top__main-block__image"
+              /></a>
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><img
+                  src="img/footr-linkedin.svg"
+                  alt="Linkedin"
+                  class="footer-top__main-block__image"
+              /></a>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><img
+                  src="img/footer-youtube.svg"
+                  alt="Youtube"
+                  class="footer-top__main-block__image"
+              /></a>
+            </div>
+          </div>
+          <div class="footer-top__last-wrapper">
+            <div class="footer-top__last">
+              <h4 class="footer-top__last__title">Продукт</h4>
+              <ul class="footer-top__last__list">
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                  >
+                    Лендинг</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Функции</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Документация</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Скидки</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Расценки</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer-top__last footer-top__last-four">
+              <h4 class="footer-top__last__title">Сервисы</h4>
+              <ul class="footer-top__last__list">
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Документация</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Дизайн</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Темы</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Иллюстрации</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >UI Kit</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer-top__last footer-top__last-third">
+              <h4 class="footer-top__last__title">Компания</h4>
+              <ul class="footer-top__last__list">
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >О нас</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Условия</a
+                  >
+                </li>
+                <li
+                  class="footer-top__last__item footer-top__last__item-mod footer-top__last__item-mod-1"
+                >
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Политика <br />
+                    конфиденциальности</a
+                  >
+                </li>
+                <li
+                  class="footer-top__last__item footer-top__last__item-mod footer-top__last__item-mod-2"
+                >
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Privacy Policy
+                  </a>
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Careers</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer-top__last">
+              <h4 class="footer-top__last__title">Более</h4>
+              <ul class="footer-top__last__list">
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Документация</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Лицензия</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Измененния</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-buttom">
+          <img src="img/Heart-1.png" alt="Heart" class="footer-buttom__image" />
+          <span class="footer-buttom__text"
+            >Copyright © 2019. Crafted with love.</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal">
+      <div
+        class="modal__overlay"
+        id="modal1_id"
+        role="dialog"
+        aria-hidden="true"
+        data-backdrop="static"
+        data-keyboard="false"
+        tabindex="-1"
+      ></div>
+      <div
+        class="modal__dialog"
+        id="modal_id"
+        role="dialog"
+        aria-hidden="true"
+        data-backdrop="static"
+        data-keyboard="false"
+        tabindex="-1"
+      >
+        <a href="#" class="modal__close">
+          <img src="img/close.svg" alt="Close" />
+        </a>
+        <h3 class="modal__title modal__title--mb-3">Свяжитесь с нами</h3>
+        <form action="send.php" method="POST" class="modal__form form">
+          <input
+            type="text"
+            class="input modal__input"
+            placeholder="Ваше полное имя*"
+            name="name"
+            required
+            minlength="2"
+          />
+          <input
+            type="tel"
+            class="input modal__input phone"
+            id="phone"
+            placeholder="Номер телефона*"
+            name="phone"
+            required
+            data-mask="+7 (000) 000-00-00"
+          />
+          <input
+            type="email"
+            class="input modal__input"
+            placeholder="Ваш e-mail адрес*"
+            name="email"
+            required
+          />
+          <textarea
+            class="message modal__message"
+            placeholder="Сообщение*"
+            required
+            name="message"
+          ></textarea>
+          <button class="button modal__button" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <a href="#" class="to-top">
+      <img src="img/to-top-arrow.svg" class="to-toop" alt="Наверх" />
+    </a>
+    <script src="JS/jquery-3.6.0.min.js"></script>
+    <script src="JS/jquery.mask.min.js"></script>
+    <script src="JS/swiper.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>

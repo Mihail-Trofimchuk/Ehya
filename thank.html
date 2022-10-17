@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Ehya - Агенство цифровых проектов</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <!-- <link rel="stylesheet" href="css/aos.css" />-->
+    <!-- <link rel="stylesheet" href="css/swiper.css" /> -->
+  </head>
+  <body>
+    <header class="header-mobile">
+      <div class="container">
+        <div class="header">
+          <nav class="header-logo">
+            <a href="index.html">
+              <img
+                src="img/Logo.svg"
+                alt="Logo: Ehya"
+                class="header-logo__image"
+            /></a>
+          </nav>
+          <div class="header-menu">
+            <ul class="header-menu-list">
+              <li class="header-menu__item">
+                <a href="#" class="header-menu__link">Домой</a>
+              </li>
+              <li class="header-menu__item">
+                <button
+                  onclick="myFunction()"
+                  class="header-menu__link dropbtn"
+                >
+                  Лэндинги
+                  <img src="img/angle-down.svg" alt="Icon: Angle-Down" />
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Shortlist</a>
+                  <a href="#">Longread</a>
+                  <a href="#">Мультилендинг</a>
+                  <a href="#">Квиз</a>
+                </div>
+              </li>
+              <li class="header-menu__item">
+                <button onclick="myFunc()" class="header-menu__link drop">
+                  Страницы
+                  <img src="img/angle-down.svg" alt="Icon: Angle-Down" />
+                </button>
+                <div id="Drop" class="content">
+                  <a href="#">Личный сайт</a>
+                  <a href="#">Интернет магазин</a>
+                  <a href="#">Форумы</a>
+                </div>
+              </li>
+              <li class="header-menu__item">
+                <a href="#" class="header-menu__link">Помощь</a>
+              </li>
+            </ul>
+            <button data-toggle="modal" class="header__button">Получить</button>
+          </div>
+          <button class="header-menu-button">
+            <span class="header-menu-button__line"></span>
+            <span class="header-menu-button__line"></span>
+            <span class="header-menu-button__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section class="feedback feedback-thank">
+      <div class="container">
+        <div class="feedback-block">
+          <h1 class="feedback__title">Cообщение отправлено</h1>
+          <span class="feedback__text"
+            >Благорим вас за обращенеи. Мы готовы помочь всем, что вам
+            нужно</span
+          >
+          <a href="index.html" class="feedback__button feedback__button-modal">
+            Вернуться на главную страницу
+          </a>
+          <img class="feedback__image" src="img/Oval.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top__main">
+            <a href="#">
+              <img
+                src="img/footer-logo.svg"
+                alt="Logo"
+                class="footer-top__main__logo"
+              />
+            </a>
+            <span class="footer-top__main__text"
+              >Создайте современный и креативный веб-сайт с crealand</span
+            >
+            <div class="footer-top__main-block">
+              <a href="https://www.google.com/" target="_blank"
+                ><img
+                  src="img/footer-google.svg"
+                  alt="Google"
+                  class="footer-top__main-block__image"
+              /></a>
+              <a href="https://twitter.com/twitter" target="_blank"
+                ><img
+                  src="img/footer-twitter.svg"
+                  alt="Twitter"
+                  class="footer-top__main-block__image"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img
+                  src="img/footer-instagram.svg"
+                  alt="Instagram"
+                  class="footer-top__main-block__image"
+              /></a>
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><img
+                  src="img/footr-linkedin.svg"
+                  alt="Linkedin"
+                  class="footer-top__main-block__image"
+              /></a>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><img
+                  src="img/footer-youtube.svg"
+                  alt="Youtube"
+                  class="footer-top__main-block__image"
+              /></a>
+            </div>
+          </div>
+          <div class="footer-top__last-wrapper">
+            <div class="footer-top__last">
+              <h4 class="footer-top__last__title">Продукт</h4>
+              <ul class="footer-top__last__list">
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                  >
+                    Лендинг</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Функции</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Документация</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Скидки</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Расценки</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer-top__last footer-top__last-four">
+              <h4 class="footer-top__last__title">Сервисы</h4>
+              <ul class="footer-top__last__list">
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Документация</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Дизайн</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Темы</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Иллюстрации</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >UI Kit</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer-top__last footer-top__last-third">
+              <h4 class="footer-top__last__title">Компания</h4>
+              <ul class="footer-top__last__list">
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >О нас</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Условия</a
+                  >
+                </li>
+                <li
+                  class="footer-top__last__item footer-top__last__item-mod footer-top__last__item-mod-1"
+                >
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Политика <br />
+                    конфиденциальности</a
+                  >
+                </li>
+                <li
+                  class="footer-top__last__item footer-top__last__item-mod footer-top__last__item-mod-2"
+                >
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Privacy Policy
+                  </a>
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Careers</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer-top__last">
+              <h4 class="footer-top__last__title">Более</h4>
+              <ul class="footer-top__last__list">
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Документация</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Лицензия</a
+                  >
+                </li>
+                <li class="footer-top__last__item">
+                  <a
+                    href="#"
+                    class="footer-top__last__item-href"
+                    target="_blank"
+                    >Измененния</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-buttom">
+          <img src="img/Heart-1.png" alt="Heart" class="footer-buttom__image" />
+          <span class="footer-buttom__text"
+            >Copyright © 2019. Crafted with love.</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal">
+      <div
+        class="modal__overlay"
+        id="modal1_id"
+        role="dialog"
+        aria-hidden="true"
+        data-backdrop="static"
+        data-keyboard="false"
+        tabindex="-1"
+      ></div>
+      <div
+        class="modal__dialog"
+        id="modal_id"
+        role="dialog"
+        aria-hidden="true"
+        data-backdrop="static"
+        data-keyboard="false"
+        tabindex="-1"
+      >
+        <a href="#" class="modal__close">
+          <img src="img/close.svg" alt="Close" />
+        </a>
+        <h3 class="modal__title modal__title--mb-3">Свяжитесь с нами</h3>
+        <form action="send.php" method="POST" class="modal__form form">
+          <input
+            type="text"
+            class="input modal__input"
+            placeholder="Ваше полное имя*"
+            name="name"
+            required
+            minlength="2"
+          />
+          <input
+            type="tel"
+            class="input modal__input phone"
+            placeholder="Номер телефона*"
+            name="phone"
+            required
+          />
+          <input
+            type="email"
+            class="input modal__input"
+            placeholder="Ваш e-mail адрес*"
+            name="email"
+            required
+          />
+          <textarea
+            class="message modal__message"
+            placeholder="Сообщение"
+            required
+            name="message"
+          ></textarea>
+          <button class="button modal__button" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <script src="JS/jquery-3.6.0.min.js"></script>
+    <script src="JS/jquery.mask.min.js"></script>
+    <script src="JS/swiper.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
